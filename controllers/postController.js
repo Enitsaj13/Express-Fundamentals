@@ -4,7 +4,6 @@ let posts = [
     { id: 3, title: 'Post Three' },
 ];
 
-
 // @desc    Get all posts
 // @route   GET /api/posts
 export const getPosts = (req, res, next) => {
